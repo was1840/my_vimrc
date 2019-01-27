@@ -21,7 +21,8 @@ Plugin 'sjl/gundo.vim'
 Plugin 'hecal3/vim-leader-guide'
 " 注释
 Plugin 'scrooloose/nerdcommenter'
-
+" git插件
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 filetype plugin indent on " 自动检测文件类型
 
