@@ -50,7 +50,7 @@ set shiftwidth=4 " 设置格式化时制表符占用空格数
 set softtabstop=4 " 让VIM 把连续数量的空格视为一个制表符
 set list  " 显示空格和TAB
 set listchars=tab:>-,trail:- " 设置tab和空格样式
-set paste  " 设置粘贴模式，不附带其他变形
+"set paste  " 设置粘贴模式，不附带其他变形
 set encoding=utf-8 " 设置编码
 set fileencoding=utf-8 " 设置文件编码
 set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030 " 设置尝试打开编码
@@ -66,8 +66,8 @@ set nobackup        "不备份(讨厌的~文件)
 
 "  ------------------------------主题配置 start----------------------
 set background=dark
-colorscheme solarized
 let g:solarized_termcolors=256
+colorscheme solarized
 " ------------------------------主题配置 End -----------------------
 
 "  ------------------------------快捷键设置 start--------------------
